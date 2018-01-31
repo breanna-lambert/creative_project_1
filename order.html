@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Papa Don's Neighborhood Pizza</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Stalemate|Rammetto+One" rel="stylesheet"> 
+  </head>
+  <body>
+
+    <div>
+      <clickable>
+      <h1><a href="index.html">Papa Don's Neighborhood Pizza</a></h1>
+      <h2><a href="index.html">Provo's #1 locally owned pizza restaurant</a></h2>
+      </clickable>
+    </div>
+   
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li class="active"><a href="order.html">Order Now</a></li>
+        <li><a href="specials.html">Specials</a></li>
+      </ul>
+    </nav>
+ 
+    <div>
+      <h1 class="alignLeft">Order</h1>
+    </div>
+
+    <div class="padded">
+      <form action="https://formspree.io/breanna.r.lambert@gmail.com"
+        method="POST">
+        <p><em>Fill out the below information for your pizza order, then click "Place Order" at the end of the page.</em></p><br>
+        Name: <input type="text" name="name" placeholder="Your Name Here"><br> 
+        <h3>Size</h3>
+        <input type="checkbox" name="small"> small <br>        
+        <input type="checkbox" name="medium"> medium <br>        
+        <input type="checkbox" name="large"> large <br>        
+        <input type="checkbox" name="extra large"> extra large <br>        
+
+
+        <h3>House Favorite Pizzas</h3>
+        <input type="radio" name="meat lovers"> Meat Lover's <br>        
+        <input type="radio" name="Y Delite"> Y Delite <br>        
+        <input type="radio" name="chicken alfredo"> Chicken Alfredo <br>        
+        <input type="radio" name="bbq"> BBQ <br>        
+
+        <h3>Or pick your own toppings:</h3>
+        <input type="checkbox" name="pepperoni"> pepperoni <br>        
+        <input type="checkbox" name="sausage"> sausage <br>        
+        <input type="checkbox" name="ham"> ham <br>        
+        <input type="checkbox" name="bacon"> bacon <br>        
+        <input type="checkbox" name="chicken"> chicken <br>        
+        <input type="checkbox" name="bell peppers"> bell peppers <br>        
+        <input type="checkbox" name="olives"> olives <br>        
+        <input type="checkbox" name="red onion"> red onion <br>        
+        <input type="checkbox" name="pineapple"> pineapple <br>        
+        <input type="checkbox" name="mushrooms"> mushrooms <br>        
+        <input type="checkbox" name="spinach"> spinach <br>        
+
+        <h3>Address: <input type="text" name="address" placeholder="Your address here"></h3>
+        <h3>Phone: <input type="text" name="phone" placeholder="Your phone number here"></h3>
+        <h3>Special Instructions: <input type="text" name="message" placeholder="Your message here"></h3>
+        <br>
+        <input type="submit" value="Place Order">
+        <br><br><br><br>
+
+      </form> 
+    </div>
+
+    <div class="footer">
+      <a href="https://github.com/BYU-CS260-Winter-2018/lab-1-breanna-lambert">GitHub Classroom Repository</a>
+    </div>
+
+  </body>
+</html>
